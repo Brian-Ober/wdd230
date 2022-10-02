@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Roboto+Slab&display=swap');
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Roboto Slab", serif;
+}
+p {
+    font-family: "Open Sans", sans-serif;
+}
+body {
+    
+    background-color: #50A4AB;
+    
+
+}
+header {
+    margin-top: 0;
+    background-color: #F5DFBB;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: .5em;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+nav a {
+    text-decoration: none;
+    color: #F2542D;
+    padding: .5em;
+}
+nav a:hover {
+    color: #50A4AB;
+    background-color:#F2542D;
+  }
+h1 {
+    text-align: center;
+}
+main {
+    background-color:white;
+    width: 80%;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 0;
+}
+#logo {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right:auto;
+}
+#business {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right:auto;
+}
+#customer {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right:auto;
+}
+#color1 {
+    background-color:#F2542D;
+}
+#color2 {
+    background-color:#50A4AB;
+}
+#color3 {
+    background-color:#F5DFBB;
+}
+@media screen and (min-width: 550px) {
+    nav ul {
+        flex-direction: row;
+    }
+}
