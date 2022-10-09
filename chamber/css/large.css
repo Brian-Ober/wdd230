@@ -1,0 +1,47 @@
+@media screen and (min-width: 1200px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .navigation li:first-child {
+        display: none;  
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    main {
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+    }
+    .spotlight {
+        grid-column: 3;
+        grid-row: 1/5;
+        flex-direction: column;
+    }
+    #spotlight3 {
+        display: block;
+        border-style: solid;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .hero {
+        grid-column: 2;
+        grid-row: 1/3;
+    }
+    .event {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .news {
+        grid-column: 2;
+        grid-row: 4;
+    }
+    .weather {
+        grid-column: 1;
+        grid-row: 2;
+    }
+}

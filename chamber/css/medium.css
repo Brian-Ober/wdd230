@@ -1,0 +1,51 @@
+@media screen and (min-width: 550px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .join{
+        display: block;
+        grid-column: 1/5;
+        grid-row: 4;
+        border-style: solid;
+    }
+    .hero {
+        grid-column: 1/5;
+        grid-row: 1;
+        border-style: solid;
+    }
+    .news {
+        grid-column: 1/5;
+        grid-row: 2;
+        border-style: solid;
+    }
+    .spotlight {
+        grid-column: 1/5;
+        grid-row: 3;
+        display: flex;
+        justify-content: space-evenly;
+        gap: .25em;
+        border-style: solid;
+    }
+
+    .event {
+        grid-column: 1/4;
+        grid-row: 5;
+        border-style: solid;
+    }
+    .weather {
+        grid-column: 4;
+        grid-row: 5;
+        border-style: solid;
+    }
+    #spotlight1 {
+        border-style: solid;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    #spotlight2 {
+        border-style: solid;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+}
