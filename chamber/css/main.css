@@ -5,7 +5,7 @@ header {
     margin-top: 0;
     background-color: #F5DFBB;
     display: grid;
-    grid-template-columns: 20% 20% auto;
+    grid-template-columns: 30% 20% auto;
     
 }
 
@@ -14,6 +14,7 @@ header {
     text-align: center;
     padding: 1em;
     grid-column: 1;
+    
 }
 .navigation li:first-child {
     display: block;

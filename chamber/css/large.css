@@ -6,6 +6,12 @@
         padding: 0;
     }
     
+    .navigation {
+        display: flex;
+        gap: .5em;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
     .navigation li:first-child {
         display: none;  
     }
