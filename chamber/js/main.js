@@ -17,3 +17,9 @@ document.querySelector('.year').textContent = year;
 
 let updated = document.lastModified;
 document.querySelector('.lastupdated').textContent = updated;
+
+let day = date.getDay()
+if (day == 1 || day == 2) {
+    document.getElementById("message").style.display = "block";
+
+}

@@ -5,7 +5,7 @@ header {
     margin-top: 0;
     background-color: #F5DFBB;
     display: grid;
-    grid-template-columns: 30% 20% auto;
+    grid-template-columns: 25% 20% auto auto auto;
     
 }
 
@@ -14,6 +14,8 @@ header {
     text-align: center;
     padding: 1em;
     grid-column: 1;
+    position: absolute;
+    
     
 }
 .navigation li:first-child {
@@ -53,7 +55,8 @@ main {
     width: 90%;
     margin-left: auto;
     margin-right:auto;
-    margin-top: 0;
+    
+    
 }
 h1,
 h2,
@@ -68,6 +71,10 @@ footer {
     margin-bottom: 0;
     background-color: #F5DFBB;
     text-align: center;
+}
+#bannerbox {
+    background-color: white;
+    height: 60px;
 }
 #logo {
     display: block;
@@ -101,3 +108,65 @@ footer {
     margin-right: auto;
 }
 
+#map {
+    width: 5%;
+}
+#citylarge {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#message {
+    position: absolute;
+    top: 152px;
+    display: none;
+    
+}
+
+.hero {
+    position: relative;
+}
+#button {
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    padding: 0.35rem;
+	margin-left: 1rem;
+	font-size: 1.1rem;
+}
+#facebook {
+    width: 20px;
+}
+#google {
+    width: 20px;
+}
+#button2 {
+   
+    padding: 0.35rem;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+	font-size: 1.1rem;
+    display: block;
+
+}
+
+
+.weather {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#weathericon {
+    width: 60px;
+    grid-column: 1;
+    grid-row: 2/4;
+}
+#weathertop {
+    grid-column: 1/3;
+    grid-row: 1;
+}
+#line {
+    grid-column: 1/3;
+    grid-row: 4;
+}
