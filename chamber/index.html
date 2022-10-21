@@ -26,7 +26,7 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
-        <img id="logo" src="images/logo.png" alt="logo">
+        <img id="logo" src="images/logo.webp" alt="logo">
         <h1 id="title">Rexburg Chamber of Commerce</h1>
         <img id ="facebook" src="https://cdn.glitch.me/ba8ab343-c963-4641-b54d-29ecfad4068b%2Ffacebook.png?v=1633832361267" alt="facebook">
         <img id ="google" src="https://cdn.glitch.me/ba8ab343-c963-4641-b54d-29ecfad4068b%2Fgoogleplus.png?v=1633832553394" alt="google">
@@ -36,7 +36,10 @@
         <div id="bannerbox"></div>
         <div class="hero">
             <h1>Welcome to Rexburg</h1>
-            <img id="citylarge" src="images/Optimized-rexburg.png" alt="Rexburg">
+            <!--<img id="citylarge" src="images/Optimized-rexburg.png" alt="Rexburg">-->
+            <img id="citylarge" src="images/large.png" alt="Rexburg">
+            <img id="citymedium" src="images/medium.png" alt="Rexburg">
+            <img id="citysmall" src="images/small.png" alt="Rexburg">
             <button id="button"type="submit">Join the Chamber</button>
         </div>
         <div class="event">
@@ -48,11 +51,11 @@
         <div class="weather">
             <h1 id="weathertop">Weather</h1>
             <img id="weathericon" src="images/partlycloudy.png" alt="cloud icon">
-            <p>33°C</p>
+            <p><span id="temp"></span> &#8457</p>
             <p>Partly Cloudy</p>
-            <hr id="line">
-            <p>Wind Speed</p>
-            <p>Wind Chill</p>
+            <p id="speed">Wind Speed: <span id="wind"></span> mph</p>
+            <p id="chill">Wind Chill: <span id="windchill"></span> </p>
+            
         </div>
         <div class="news">
             <h1>News Release</h1>
@@ -78,7 +81,7 @@
             </article>
         </div>
         <div class="join">
-            <a href="#"><button id="button2"type="submit">Join Us!</button></a>
+            <a id="button2" href="#">Join Us!</a>
             <p>Discover how to join the chamber of commerce and how it will help your organization</p>
         </div>
         <div id="message">
@@ -86,7 +89,7 @@
         </div>
     </main>
     <footer>
-        <img id="footerlogo" src="images/logo.png" alt="logo">
+        <img id="footerlogo" src="images/logo.webp" alt="logo">
         <a href="../lesson3/index.html">Site Plan</a>
         <p id="copyright">&copy;<span class="year"></span> Brian Ober Idaho</p>
         <p>WDD 230 Project</p>
@@ -95,5 +98,6 @@
         <a href="https://goo.gl/maps/7iYb12vurdwV9xVr8"><img id="map" src="images/maps.png" alt="map link"></a>
     </footer>
     <script src="js/main.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 </html>

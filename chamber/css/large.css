@@ -38,6 +38,24 @@
         grid-column: 2;
         grid-row: 2/4;
     }
+    #citylarge {
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #citymedium {
+        width: 90%;
+        display: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #citysmall {
+        width: 90%;
+        display: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .event {
         grid-column: 1;
         grid-row: 2;

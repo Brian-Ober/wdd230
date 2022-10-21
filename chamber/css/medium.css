@@ -14,6 +14,24 @@
         grid-row: 2;
         border-style: solid;
     }
+    #citylarge {
+        width: 90%;
+        display: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #citymedium {
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #citysmall {
+        width: 90%;
+        display: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .news {
         grid-column: 1/5;
         grid-row: 3;
