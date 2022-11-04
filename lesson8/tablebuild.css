@@ -1,0 +1,43 @@
+tr:nth-child(odd) {
+    background-color: lightgreen;
+}
+tr:nth-child(even) {
+    background-color: lightgrey;
+}
+table {
+    margin: 0 auto;
+}
+
+thead th, tfoot td{
+    background-color: darkcyan;
+}
+
+td, th {
+    padding: 10px;
+    font-family: sans-serif ;
+}
+
+table, td, th {
+    border: 1px solid grey;
+    border-collapse:collapse;
+}
+tbody tr:nth-child(5) td:nth-child(3){
+    color:white;
+    background-color: blue;
+}
+tbody tr:nth-child(6) td:nth-child(1){
+    font-style: italic;
+}
+tbody tr:nth-child(6) td:nth-child(2){
+    text-align: center;
+}
+
+tbody tr:nth-child(1) {
+    color:white;
+    background-color: blue;
+    font-weight: bold;
+    text-align: center;
+}
+th, td {
+    font-size: 20px;
+}
