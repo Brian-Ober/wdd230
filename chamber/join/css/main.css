@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Roboto+Slab&display=swap');
+
+#facebook {
+    width: 20px;
+}
+#google {
+    width: 20px;
+}
+
+header {
+    margin-top: 0;
+    background-color: #F5DFBB;
+    display: grid;
+    grid-template-columns: 25% 20% auto auto auto;
+    
+}
+
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 1em;
+    grid-column: 1;
+    position: absolute;
+    
+    
+}
+.navigation li:first-child {
+    display: block;
+}
+.navigation li {
+    display: none;
+    
+}
+
+
+
+.navigation a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    background-color:#F2542D;
+    color: white;
+}
+
+.responsive li {
+    display: block;
+}
+
+
+body {
+    
+    background-color: #50A4AB;
+        
+    
+}
+main {
+    background-color:white;
+    width: 90%;
+    margin-left: auto;
+    margin-right:auto;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Roboto Slab", serif;
+}
+p {
+    font-family: "Open Sans", sans-serif;
+}
+footer {
+    margin-bottom: 0;
+    background-color: #F5DFBB;
+    text-align: center;
+}
+
+#footerlogo {
+    display: block;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo {
+    display: block;
+    width: 90%;
+    margin-left: .25em;
+}
+#map {
+    width: 5%;
+}
+
+#sone {
+    display: flex;
+    flex-direction: column;
+}
+#stwo {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+form {
+    width: 50%;
+}
+input:required {
+    border-left: 10px solid red;
+}
+
+input:required:valid {
+    border-left: 10px solid green;
+}

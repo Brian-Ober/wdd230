@@ -1,3 +1,4 @@
+@media screen and (min-width: 1200px) {
 nav {
     display: flex;
     flex-direction: row;
@@ -20,6 +21,7 @@ nav {
     font-family: "Roboto Slab", serif;
 }
 
-img:hover {
+main img:hover {
     box-shadow: 10px 10px 5px black;
+}
 }

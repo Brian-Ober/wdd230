@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join the Chamber</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class ="navigation">
+                <li><a href="#" onclick="togglemenu()">&#9776; </a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../discover/discover.html">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <img id="logo" src="../images/logo.webp" alt="logo">
+        <h1 id="title">Rexburg Chamber of Commerce</h1>
+        <img id ="facebook" src="https://cdn.glitch.me/ba8ab343-c963-4641-b54d-29ecfad4068b%2Ffacebook.png?v=1633832361267" alt="facebook">
+        <img id ="google" src="https://cdn.glitch.me/ba8ab343-c963-4641-b54d-29ecfad4068b%2Fgoogleplus.png?v=1633832553394" alt="google">
+        <p id="date">Current Date: <span class="dateformat"></span></p>
+    </header>
+    <main>
+        <div id="sone">
+            <form method="get" action="thankyou.html">
+                <label for="fname">First Name*:</label>
+                <input id="fname" name="fistname" required>
+                <label for="lname">Last Name*:</label>
+                <input id="lname" type="text" name="lastname" required>
+                <label for="title">Business Position Title* (Only letters, spaces, and dashes and at least 7 characters):</label>
+                <input id="title" type="text" name="title" pattern="[- A-Za-z}+" minlength="7" required>
+                <label for="email">Email:</label>
+                <input id="email" type="email" name="email">
+                <label for="phone">Cell Number: *</label>
+                <input id="phone" type="tel" name="cell" required>
+                <label id="member">Enter Your Membership</label>
+                <div id="radio">
+                    <input type="radio" id="one" name="mlevel" value="level1">
+                    <label for="one">NPO </label>
+                
+                    <input type="radio" id="two" name="mlevel" value="level2">
+                    <label for="two">Bronze </label>
+
+                    <input type="radio" id="three" name="mlevel" value="level3">
+                    <label for="three">Silver </label>
+
+                    <input type="radio" id="four" name="mlevel" value="level4">
+                    <label for="four">Gold </label>
+                </div>
+    
+                <label for="message">Business Description:</label>
+                <textarea id="message" placeholder="Your business description here"></textarea>
+    
+                <input id="date" type="hidden" name="todayDate">
+                <input type="submit" value="Join the Chamber">
+    
+            
+            </form>
+        </div>
+
+        <div id="stwo">
+            <p>🚑 Help and Additional Resources</p>
+            <p>Levels Benefits</p>
+            <p>NP Membership
+
+            <p>For non profit organizations and there is no fee</p>
+
+            <p>Bronze Membership</p>
+
+            <p>15% discount on events</p>
+
+            <p>10% discount on advertising</p>
+
+            <p>Fee of $50 per month</p>
+
+            <p>Silver Membership</p>
+
+            <p>25% discount on events</p>
+
+            <p>15% discount on advertising</p>
+
+            <p>Free participation in the trade fair</p>
+
+            <p>Fee of $100 per month</p>
+
+            <p>Gold Membership</p>
+
+            <p>50% discount on events</p>
+
+            <p>50% discount on advertising</p>
+
+            <p>Free participation in the trade fair</p>
+
+            <p>5 free featured ads per year</p>
+
+            <p>1 free training per quarter</p>
+
+            <p>Fee of $250 per month </p>
+        </div>
+    </main>
+    <footer>
+        <img id="footerlogo" src="../images/logo.webp" alt="logo">
+        <a href="../lesson3/index.html">Site Plan</a>
+        <p id="copyright">&copy;<span class="year"></span> Brian Ober Idaho</p>
+        <p>WDD 230 Project</p>
+        <p id="updatetime">Last Updated: <span class="lastupdated"></span></p>
+        <p>designerrexburg99@gmail.com</p>
+        <a href="https://goo.gl/maps/7iYb12vurdwV9xVr8"><img id="map" src="../images/maps.png" alt="map link"></a>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
