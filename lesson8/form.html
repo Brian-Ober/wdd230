@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <form method="get" action="thankyou.html">
+        <label for="fname">First Name*:</label>
+        <input id="fname" name="fistname" required>
+        <label for="lname">Last Name*:</label>
+        <input id="lname" type="text" name="lastname" required>
+        <label for="title">Business Position Title* (Only letters, spaces, and dashes and at least 7 characters):</label>
+        <input id="title" type="text" name="title" pattern="[- A-Za-z}+" minlength="7" required>
+        <label for="email">Email:</label>
+        <input id="email" type="email" name="email">
+        <label for="phone">Cell Number: *</label>
+        <input id="phone" type="tel" name="cell" required>
+        <label id="member">Enter Your Membership</label>
+        <div id="radio">
+            <input type="radio" id="one" name="mlevel" value="level1">
+            <label for="one">Level 1</label>
+            
+            <input type="radio" id="two" name="mlevel" value="level2">
+            <label for="two">Level 2</label>
+        </div>
+
+        <label for="message">Business Description:</label>
+        <textarea id="message" placeholder="Your business description here"></textarea>
+
+        <input id="date" type="hidden" name="todayDate">
+        <input type="submit" value="Join the Chamber">
+
+        
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2"> ACME Wildwest</th>
+            </tr>
+            
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2"> Week 9</td>
+                <td>Tables</td>
+            </tr>
+            <tr>
+                <td>Forms</td>
+            </tr>
+            <tr>
+                <td>Week 10</td>
+                <td>API</td>
+            </tr>
+            <tr>
+                <td>Week 11</td>
+                <td>Weather App</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td  colspan="2">A look at the next few weeks</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+<script src="form.js"></script>
+</html>

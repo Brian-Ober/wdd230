@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thank You</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
+    <title>Directory</title>
+    <meta
+            name="description"
+            content="Directory for chamber of commerce website" />
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <script defer src="js/directory.js"></script>
 </head>
 <body>
     <header>
@@ -17,8 +20,8 @@
                 <li><a href="#" onclick="togglemenu()">&#9776; </a></li>
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="../discover/discover.html">Discover</a></li>
-                <li><a href="../directory/directory.html">Directory</a></li>
-                <li><a href="join.html">Join</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="../join/join.html">Join</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
@@ -29,17 +32,19 @@
         <p id="date">Current Date: <span class="dateformat"></span></p>
     </header>
     <main>
-        <p>Thank You</p>
+        <button id="list">&#9868;</button>
+        <button id="gridview">&#9871;</button>
+        <div class="cards"></div>
+        <table class="jsontable"></table>
     </main>
     <footer>
         <img id="footerlogo" src="../images/logo.webp" alt="logo">
-        <a href="../lesson3/index.html">Site Plan</a>
+        <a href="../../lesson3/index.html">Site Plan</a>
         <p id="copyright">&copy;<span class="year"></span> Brian Ober Idaho</p>
         <p>WDD 230 Project</p>
         <p id="updatetime">Last Updated: <span class="lastupdated"></span></p>
         <p>designerrexburg99@gmail.com</p>
         <a href="https://goo.gl/maps/7iYb12vurdwV9xVr8"><img id="map" src="../images/maps.png" alt="map link"></a>
     </footer>
-    <script src="js/main.js"></script>
 </body>
 </html>

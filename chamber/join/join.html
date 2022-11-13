@@ -17,7 +17,7 @@
                 <li><a href="#" onclick="togglemenu()">&#9776; </a></li>
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="../discover/discover.html">Discover</a></li>
-                <li><a href="#">Directory</a></li>
+                <li><a href="../directory/directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
@@ -36,9 +36,9 @@
                 <label for="lname">Last Name*:</label>
                 <input id="lname" type="text" name="lastname" required>
                 <label for="title">Business Position Title* (Only letters, spaces, and dashes and at least 7 characters):</label>
-                <input id="title" type="text" name="title" pattern="[- A-Za-z}+" minlength="7" required>
+                <input id="formtitle" type="text" name="formtitle" pattern="[- A-Za-z}+" minlength="7" required>
                 <label for="email">Email:</label>
-                <input id="email" type="email" name="email">
+                <input id="email" type="email" name="email" placeholder="email@gmail.com">
                 <label for="phone">Cell Number: *</label>
                 <input id="phone" type="tel" name="cell" required>
                 <label id="member">Enter Your Membership</label>
@@ -54,14 +54,16 @@
 
                     <input type="radio" id="four" name="mlevel" value="level4">
                     <label for="four">Gold </label>
+
+                    <label for="message">Business Description:</label>
+                    <textarea id="message" placeholder="Your business description here"></textarea>
+    
+                    <input id="hiddendate" type="hidden" name="todayDate">
+                    <input type="submit" value="Join the Chamber">
+    
                 </div>
     
-                <label for="message">Business Description:</label>
-                <textarea id="message" placeholder="Your business description here"></textarea>
-    
-                <input id="date" type="hidden" name="todayDate">
-                <input type="submit" value="Join the Chamber">
-    
+                
             
             </form>
         </div>
