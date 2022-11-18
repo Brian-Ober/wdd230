@@ -23,3 +23,10 @@ if (day == 1 || day == 2) {
     document.getElementById("message").style.display = "block";
 
 }
+function goJoin(event) {
+    const newUrl = "https://brian-ober.github.io/wdd230/chamber/join/join.html"
+document.location.href = newUrl;
+
+}
+
+document.querySelector("#button").addEventListener("click", goJoin);
