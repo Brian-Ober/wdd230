@@ -101,3 +101,13 @@ img {
     padding: 5px;
     width: 300px;
 }
+#footerlogo {
+    display: block;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#map {
+    width: 5%;
+}
