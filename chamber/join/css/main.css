@@ -102,15 +102,18 @@ footer {
 #sone {
     display: flex;
     flex-direction: column;
+    width: 80%;
+    
 }
 #stwo {
     display: flex;
     flex-direction: column;
     width: 50%;
+    text-align: center;
 }
 
 form {
-    width: 50%;
+    border-style: solid;
 }
 input:required {
     border-left: 10px solid red;

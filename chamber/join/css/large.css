@@ -20,4 +20,13 @@
         flex: 1 1 100%;
         font-family: "Roboto Slab", serif;
     }
+
+    form {
+        display: grid;
+        
+
+    }
+    #sone {
+        width: 50%;
+    }
 }
