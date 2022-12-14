@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule an Appointment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class ="navigation">
+                <li><a href="#" onclick="togglemenu()">&#9776; </a></li>
+                <li><a href="../index/">Home</a></li>
+                <li><a href="../products/products.html">Product Catalogue</a></li>
+                <li><a href="../makeyourown/makeyourown.html">Custom</a></li>
+                <li><a href="../about/about.html">About Us</a></li>
+                <li><a href="contact.html">Schedule an Appointment</a></li>
+                
+            </ul>
+        </nav>
+        <img id="logo" src="../index/images/logo.jpg" alt="logo">
+        <img id ="facebook" src="https://cdn.glitch.me/ba8ab343-c963-4641-b54d-29ecfad4068b%2Ffacebook.png?v=1633832361267" alt="facebook">
+        <img id ="google" src="https://cdn.glitch.me/ba8ab343-c963-4641-b54d-29ecfad4068b%2Fgoogleplus.png?v=1633832553394" alt="google">
+        <p id="date">Current Date: <span class="dateformat"></span></p>
+    </header>
+    <main>
+         <form method="get" action="thankyou.html">
+            <label for="fname">First Name*:</label>
+            <input id="fname" name="fistname" required>
+            <label for="lname">Last Name*:</label>
+            <input id="lname" type="text" name="lastname" required>
+            <label for="time">Time*</label>
+            <input id="time" type="text" name="time" required>
+            <label for="date">Date*</label>
+            <input id="date" type="date" name="date" required>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+        <img id="footerlogo" src="../index/images/logo.jpg" alt="logo">
+        <p id="copyright">&copy;<span class="year"></span> Brian Ober</p>
+        <p id="updatetime">Last Updated: <span class="lastupdated"></span></p>
+        <p>designerrexburg99@gmail.com</p>
+        <a href="https://goo.gl/maps/7iYb12vurdwV9xVr8"><img id="map" src="../../chamber/images/maps.png" alt="map link"></a>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Roboto+Slab&display=swap');
+header {
+    margin-top: 0;
+    background-color: red;
+    display: grid;
+    grid-template-columns: 25% 20% auto auto auto;
+    color:white;
+    height: 200px;
+}
+
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 1em;
+    grid-column: 1;
+    position: absolute;
+    
+    
+}
+.navigation li:first-child {
+    display: block;
+}
+.navigation li {
+    display: none;
+    
+}
+
+
+
+.navigation a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    background-color:white;
+    color: blue;
+}
+
+.responsive li {
+    display: block;
+}
+body {
+    
+    background-color: blue;
+        
+    
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Roboto Slab", serif;
+}
+p {
+    font-family: "Open Sans", sans-serif;
+}
+#logo {
+    display: block;
+    width: 100px;
+    margin-left: .25em;
+    margin-top: 20px;
+}
+main {
+    background-color:white;
+    width: 90%;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 0;
+    min-height: 200px;
+}
+
+
+
+#footerlogo {
+    display: block;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#facebook {
+    width: 50px;
+    margin-top: 20px;
+}
+#google {
+    width: 50px;
+    margin-top: 20px;
+}
+
+#map {
+    width: 2.5%;
+}
+footer {
+    margin-bottom: 0;
+    background-color: red;
+    text-align: center;
+    color: white;
+}
