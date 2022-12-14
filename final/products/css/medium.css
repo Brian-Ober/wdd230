@@ -1,0 +1,10 @@
+@media screen and (min-width: 550px) {
+    #logo {
+        width: 80px;
+    }
+
+    .navigation li, #date{
+        font-size: 14px;
+    }
+   
+}

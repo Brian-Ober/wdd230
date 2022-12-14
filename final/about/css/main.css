@@ -24,6 +24,7 @@ header {
 }
 .navigation li {
     display: none;
+    font-size: 10px;
     
 }
 
@@ -61,7 +62,7 @@ p {
 }
 #logo {
     display: block;
-    width: 100px;
+    width: 75px;
     margin-left: .25em;
     margin-top: 20px;
 }

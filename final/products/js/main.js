@@ -45,7 +45,7 @@ let updated = document.lastModified;
 document.querySelector('.lastupdated').textContent = updated;
 
 function hiddenview(event) {
-    document.querySelector('#hiddenform').style.display = "flex";
+    document.querySelector('#hiddenform').style.display = "grid";
     document.querySelector('#catalogue').style.display = "none";
 }
 document.querySelector("#goblinflag").addEventListener("click", hiddenview);
