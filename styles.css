@@ -1,0 +1,17 @@
+header {
+    display: grid;
+    grid-template-columns: 200px auto;
+    align-items: center;
+    background-color: blue;
+    
+  }
+  h1 {
+    color:white;
+  }
+  
+  #me {
+    width: 100%;
+    grid-column:1;
+    grid-row:1;
+    
+  }

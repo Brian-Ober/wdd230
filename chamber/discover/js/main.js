@@ -51,3 +51,6 @@ const io = new IntersectionObserver (
     pimages.forEach(image => {
         io.observe(image);
         })
+        
+let updated = document.lastModified;
+document.querySelector('.lastupdated').textContent = updated;

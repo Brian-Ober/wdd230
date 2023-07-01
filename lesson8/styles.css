@@ -1,0 +1,26 @@
+tr:nth-child(odd) {
+    background-color: #ccc;
+}
+table {
+    margin: 0 auto;
+}
+
+thead th, tfoot td{
+    background-color: aqua;
+}
+
+td, th {
+    padding: 10px;
+}
+
+table, td, th {
+    border: 1px solid black;
+    border-collapse:collapse;
+}
+tbody tr:nth-child(3) {
+    font-style: italic;
+}
+
+input:required:valid {
+    border-left: 10px solid green;
+}
