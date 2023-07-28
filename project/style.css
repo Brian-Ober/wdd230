@@ -260,7 +260,7 @@ header {
   min-height: 40vh;
   place-items: center;
   padding: 10vh 2rem;
-  background-image: url("../assets/backgroundimg.jpg");
+  background-image: url("assets/backgroundimg.jpg");
   text-align: center;
 }
 header h1 {
@@ -276,7 +276,7 @@ header::after {
   height: 200px;
   width: 200px;
   content: "";
-  background: url(../assets/astronaut.png);
+  background: url(assets/astronaut.png);
   -webkit-animation: float 10s linear infinite;
   -moz-animation: float 10s linear infinite;
   animation: float 10s linear infinite;
@@ -432,7 +432,7 @@ nav ul li {
   padding-bottom: 100%;
   transform: translate(-50%, -50%);
   transition: 300ms transform ease-in;
-  background-image: url("../assets/black-hole.jpg");
+  background-image: url("assets/black-hole.jpg");
   border-radius: 50%;
   opacity: 0.8;
   content: "";
@@ -807,7 +807,7 @@ nav ul li {
   position: absolute;
   padding-right: 1.25em;
   transform: translate(15%, -90%) rotate(-3deg);
-  background-image: url("../assets/black-hole.jpg");
+  background-image: url("assets/black-hole.jpg");
   background-repeat: no-repeat;
   background-position: right 130%;
   background-size: 14%;
