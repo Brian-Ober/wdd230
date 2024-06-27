@@ -1,0 +1,53 @@
+{
+    "charactor":
+    [
+        {
+            "name": "Edmond",
+            "image": "https://brian-ober.github.io/wdd230/Edmond.png",
+            "Info": "Also known as Edmontius Septentrionalis Carpus. He is the son of Jacobus Septentrionalis Carpus a prominent legatus in the Romenous Empire. Edmond has recieved Romenous miltary training and is proficient with a longbow."
+            
+        },
+        {
+            "name": "Stinky Feet",
+            "image": "https://brian-ober.github.io/wdd230/Stinky Feet.png",
+            "Info": "Orinally known as Ramvoldus GoldBeard, however, he goes by the nickname given to him by his friends. He is a Dwarf. He is proficent in blacksmithing and is profient with axes and revolvers."
+        },
+        {
+            "name": "Fredrick Tomes",
+            "image": "https://brian-ober.github.io/wdd230/Fred.png",
+            "Info": "Known as Fred to his friends. He is a Clendle. He grew up in his family's bookstore. He is the most hesitant out of his friend group at combat. He is pretty proficient at fencing."
+        },
+        {
+            "name": "Vita",
+            "image": "https://brian-ober.github.io/wdd230/Vita.png",
+            "Info": "Vita is a Dryad. She is married to Fred. She has three forms, her humanoid form, a oak tree, and a squirrel-human hybrid. She can manipulate plants and cannel light into a tight beam."
+        },
+        {
+            "name": "Thomas Tomes",
+            "image": "https://brian-ober.github.io/wdd230/Tom.png",
+            "Info": "Better known as Tom. He is Fred's brother. He has some limited magical abilities, namely illusions and some simple fire spells. He craves adventure."
+        },
+        {
+            "name": "Buytxop",
+            "image": "https://brian-ober.github.io/wdd230/Buytxop.png",
+            "Info": "He is a Gutopdogq or Rockman. He is skeptical towards many aspects of his family's culture and religion"
+        },
+        {
+            "name": "Edra",
+            "image": "https://brian-ober.github.io/wdd230/Edra.png",
+            "Info": "She is one of Buytxop's sisters. She is huaghty, proud, and really cares how she looks, wearing a sari even in battle. She is relatively devout."
+        },
+        {
+            "name": "Tapo",
+            "image": "https://brian-ober.github.io/wdd230/Tapo.png",
+            "Info": "Tapo is Buytxop's brother. He is pretty down to earth and trained as a tanner."
+        },
+        {
+            "name": "Yana",
+            "image": "https://brian-ober.github.io/wdd230/Yana.png",
+            "Info": "Yana is also Buytxop's sister. She is pretty devout and a pretty good fighter."
+        }
+    ]
+    }
+    
+    
