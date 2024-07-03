@@ -1,0 +1,53 @@
+{
+    "antagonist":
+    [
+        {
+            "name": "Count Benhadad Sheshili Vepkhvi",
+            "image": "https://brian-ober.github.io/wdd230/Benhadad.png",
+            "Info": "One of the the Legati based in the province of Buroncon. He is somewhat antagonistic with all the main characters but Edmond. He has been a poor landlord to the Rockmen"
+            
+        },
+        {
+            "name": "Duke Petrus Khane Khuaua",
+            "image": "https://brian-ober.github.io/wdd230/the duke.png",
+            "Info": "The duke is a member of the ruling Goblin clan, SchweizerKhan. He is a trained wizard and a somewhat good fencer. He is a supporter of the Goblin-Demon Alliance and is essentially Lord Baerdersan's lackey."
+        },
+        {
+            "name": "Emperor Temtron, the Demon Emperor",
+            "image": "https://brian-ober.github.io/wdd230/Emperor Temtron.png",
+            "Info": "The leader of the Demon Empire in the Cavern and heir to the throne of the Demon Realm. He is behind most of the current ploblems in the Cavern"
+        },
+        {
+            "name": "Gordrel VII",
+            "image": "https://brian-ober.github.io/wdd230/Gordrel VII.png",
+            "Info": "The king or khan of the Goblin Empire. He mostly relies on a vast burocracy to run his empire. He is currently cooperative with the Demon Empire."
+        },
+        {
+            "name": "Referouge",
+            "image": "https://brian-ober.github.io/wdd230/Tom.png",
+            "Info": "A Truropdrugh Demon with a pair of wings and only two arms and grey and red skin. He was assigned to carry out the attack on Tombleton. He indirectly caused problems for the main cast."
+        },
+        {
+            "name": "Ghordrick",
+            "image": "https://brian-ober.github.io/wdd230/Ghordrick.png",
+            "Info": "He was born in the Baden region in Germany in the year 953. He was apprenticed at the age of 12 and came across his cursed book. He has a long and storied past. He hates the Grand Wizard's Council and Tombe."
+        },
+        {
+            "name": "The Oferpod",
+            "image": "https://brian-ober.github.io/wdd230/The Oferpod.png",
+            "Info": "The exact identity of the Oferpod that Fred slayed at the Battle of Tombleton is uncertain, however, what is clear is that she belonged to the Ulaan Tsamkhag hive and as such followed her queen's orders to fight on behalf of the Goblins."
+        },
+        {
+            "name": "Ttancoumas the ninety-ninth",
+            "image": "https://brian-ober.github.io/wdd230/Spider Queen.png",
+            "Info": "Self proclaimed Queen of the Spiders and later Empress of the Arachnid Robbers. She has a habit of entering into agreements with Demons and her forces are antagonistic towards the Romenous Empire and the King of the Insect Forest."
+        },
+        {
+            "name": "Lord Baerdersan",
+            "image": "https://brian-ober.github.io/wdd230/Lord Baerdersan.png",
+            "Info": "The Demon Amnbassador to the Goblin Empire. His job is to keep the Goblin Empire under the thumb of the Demon Empire. He isn't always successful at this but he has managed to start the war between the Goblin Empire and the Romenous Empire"
+        }
+    ]
+    }
+    
+    
