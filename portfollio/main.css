@@ -36,3 +36,19 @@ li {
 nav, footer {
     background-color: white;
 }
+
+header .navigation{
+    background-color: blue;
+}
+
+.navigation a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    background-color:white;
+    color: blue;
+}
+
