@@ -17,7 +17,7 @@ body {
 
 .personalayout {
     display: grid;
-    grid-template-columns: 520px 60% auto;
+    grid-template-columns: 35% 50% auto;
     gap: 80px;
 }
 
@@ -50,11 +50,11 @@ body {
 }
 
 #persona {
-    width:1200px;
+    width: 10px;
 }
 
 #Fred {
-    width: 500px;
+    width: 100%;
     grid-column: 1;
 }
 
