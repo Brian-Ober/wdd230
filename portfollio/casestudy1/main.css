@@ -87,3 +87,6 @@ header .navigation{
     color: blue;
 }
 
+p, h1, h2, h3, h4 {
+    max-width: 67ch;
+}
