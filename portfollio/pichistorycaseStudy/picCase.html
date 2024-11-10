@@ -3,9 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PicHistory Case Study</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <ul class ="navigation">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../casestudy1/case.html">Handshake UX Case Study</a></li>
+                <li><a href="picCase.html">PicHistory UX Case Study</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>PicHistory User Experience Case Study</h1>
+            <img src="PicHistory.png" alt="pichistory logos" id="piclogo">
+            <div class="Layout">
+                <h2>PicHistory</h2>
+                <h4>Have you ever looked at a building and wondered how old it is or what happened there? PicHistory is a potential app that seeks to answer that question. Now, other apps promise to do similar tasks, but PicHistory shall be designed from the start to have the best user experience possible.</h4>
+            </div>
+            <div class="Layout">
+                <h3>Ethnographic Research</h3>
+                <p>I conducted ethnographic research in order to understand how people seek information about the history of their local area. Those I surveyed were all college students as those are the people I have the most access to. I also probed these people on their interest in an app that would connect them to local history.</p>
+                <h4>Major takeaways </h4>
+                <ol>
+                    <li>The ways they seek out information about local history include searching the internet, going to the library, and talking with locals. </li>
+                    <li>None of them had used apps that do this type of thing or knew they existed.</li>
+                </ol>
+            </div>
+            <div class="Persona Layout">
+                <h3>Persona</h3>
+                <p id="info">Based on my Ethnographic research I created a persona of a potential client.</p>
+                <img id="Alex" src="person.png" alt="Alex Jackson">
+                <section id="about">
+                    <h2>Alex Jackson 22</h2>
+                    
+                    <p>Alex Jackson is a college student who likes learning about local history. He has never heard of PicHistory and hasn’t used any similar apps(b). He mainly uses the internet to learn about his local area's history(a).</p>
+                    <br>
+                    <br>
+                    <h4>Goal</h4>
+                    <p>Learn about the history of his local area.</p>
+                </section>
+                <section id="bottom">
+                    <section id="concerns">
+                        <h4>Concerns</h4>
+                        <p>He doesn’t have all that much time to invest in searching for history.</p>
+                    </section>
+                    
+                    <section id="tasks">
+                        <h4>Tasks</h4>
+                        <h5> Get local history based on general location</h5>
+                        <h5>Get the history of a building</h5>
+                        <h5>Update any information that he knows more than the app about</h5>
+                    </section>
+                </section>
+            </div>
+            <div class="Layout">
+                <h3>Scenarios</h3>
+                <p>When it comes to creating an app, preparing good scenarios is a necessary prerequisite for usability testing. These scenarios were created using the info I compiled in the persona.</p>
+                <h4>Scenario 1</h4>
+                <p>You are a college-aged person who is interested in local history. You found PicHistory from an ad on the internet. The ad claimed that the app specialized in connecting people to local history. After downloading the app, you open it up for the first time.
+                </p>
+                <p>Get local history based on general location.</p>
+                <h4>Scenario 2</h4>
+                <p>After having the app for a while you get curious if the app can identify an old-looking building you see nearby.
+                </p>
+                <p>Get the history of the building.</p>
+                <h4>Scenario 3</h4>
+                <p>You find that the app has very little information about site 3. You know that a famous inventor, Joe Blank, used to live there.</p>
+                <p>Update site 3.</p>
+            </div>
+            <div class="Layout">
+                <h3>Usability Testing</h3>
+                <p>For the purpose of developing the basic functions of the PicHistory app, I ran three rounds of usability testing. Between each round of testing, I improved the prototype to make it simpler to use, based on the feedback I got from the people who tested it.</p>
+                <h4>Round 1</h4>
+                <p>For the first round of usability testing, I used an extremely primitive paper prototype to test the basic functions I planned for the app.</p>
+                <h5>Based on my first round</h5>
+                <ul>
+                    <li>My link names were not clear.</li>
+                    <li>It was unclear whether the individual historical sites could be clicked.</li>
+                    <li>The Add More Info button didn’t really belong in the main nav menu.</li>
+                    <li>The way I represented filler text was easily mistaken for a form.</li>
+                    <li>On the Identify Site page, it was unclear to some users why the camera and location buttons were there. After talking with some users, I decided a simple “by” added to the page would make it more clear.</li>
+                </ul>
+                <img src="20241022_143500.jpg" alt="paper prototype" class="paperprototype">
+                <img src="20241022_143502.jpg" alt="paper prototype" class="paperprototype">
+                <img src="20241022_143504.jpg" alt="paper prototype" class="paperprototype">
+                <img src="20241022_143505.jpg" alt="paper prototype" class="paperprototype">
+                <img src="20241022_144726.jpg" alt="paper prototype" class="paperprototype">
+                <h4>Round 2</h4>
+                <p>For the second round, I used a new version of my paper prototype. </p>
+                <h5>Based on my second round</h5>
+                <ul>
+                    <li>Some people want the add more information button in the nav bar, however, most users preferred the button being in the individual Historical Site pages.</li>
+                    <li>For some reason, people will click on add more information without being prompted to do so and before they have any information to add.</li>
+                    <li>Some people think it would be a good idea to add the ability to upload documents to the Add More Information form.</li>
+                    <li>Someone suggested I should add the ability to choose the town you get local history about.</li>
+                </ul>
+                <img src="20241031_152432.jpg" alt="paper prototype" class="paperprototype2">
+                <img src="20241031_152434.jpg" alt="paper prototype" class="paperprototype2">
+                <img src="20241031_152437.jpg" alt="paper prototype" class="paperprototype2">
+                <img src="20241031_152454.jpg" alt="paper prototype" class="paperprototype2">
+                <h4>Round 3</h4>
+                <p>For round three I took my round 2 paper prototype and digitized it. I didn’t add the new features as that is not what I was testing at the time.</p>
+                <h5>Based on round 3</h5>
+                <ul>
+                    <li>One of the links was broken.</li>
+                    <li>While most people realize the historical sites are clickable some took a while to figure that out.</li>
+                    <li>Someone mixed up the Add Site with the Add Information buttons.</li>
+                    <li>Another person took a while to find the Add Information button.</li>
+                    <li>All people who tested the app thought it was a positive experience.</li>
+                </ul>
+                <img src="Screenshot 2024-11-05 140301.png" alt="digital prototype" class="digital">
+                <img src="Screenshot 2024-11-05 140340.png" alt="digital prototype" class="digital">
+                <img src="Screenshot 2024-11-05 140414.png" alt="digital prototype" class="digital">
+                <img src="Screenshot 2024-11-05 140455.png" alt="digital prototype" class="digital">
+            </div>
+            <div class="Layout">
+                <h3>App Design</h3>
+                <p>After reviewing my usability tests I made some improvements to the app. I added a feature to choose which city the information will be based on. I also added some simple colors to help the design.</p>
+                <img src="picshot1.png" alt="digital prototype" class="app">
+                <img src="picshot4.png" alt="digital prototype" class="app">
+                <img src="picshot2.png" alt="digital prototype" class="app">
+                <img src="picshot4.png" alt="digital prototype" class="app">
+            </div>
+            <div class="Layout">
+                <h3>Conclusions</h3>
+                <p>Based on what has happened so far I will test my final design. I might also put in the work to create a web version of the app to test demand.</p>
+            </div>
+            
+        </main>
+    </header>
 </body>
 </html>
