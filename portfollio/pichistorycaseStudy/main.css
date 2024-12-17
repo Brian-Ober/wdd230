@@ -68,6 +68,12 @@ h1 {
     margin-left: 8%;
 }
 
+header {
+    margin-top: -25px;
+    padding: 10px;
+    background-color: blue;
+}
+
 header .navigation{
     background-color: blue;
 }
@@ -91,10 +97,18 @@ p, h1, h2, h3, h4, h5, li{
     max-width: 67ch;
 }
 
-.paperprototype, .paperprototype2, .digital {
+.paperprototype {
+    width: 15%;
+}
+
+.paperprototype2, .digital {
     width: 20%;
 }
 
 .app {
-    width: 40%;
+    width: 20%;
+}
+
+.Scenario {
+    width: 90%;
 }
