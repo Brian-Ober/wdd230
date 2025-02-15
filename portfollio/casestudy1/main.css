@@ -90,3 +90,18 @@ header .navigation{
 p, h1, h2, h3, h4 {
     max-width: 67ch;
 }
+
+@media screen and (min-width: 550px) {
+    .navigation {
+        display: flex;
+        gap: .5em;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+ 
+    
+}

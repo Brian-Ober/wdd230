@@ -22,7 +22,7 @@ li {
     padding: 10px;
 }
 
-#rafting, #project  {
+#rafting, #project, #rwc  {
     display: block;
     width: 95%;
 }
@@ -50,4 +50,17 @@ header .navigation{
     background-color:white;
     color: blue;
 }
-
+@media screen and (min-width: 550px) {
+    .navigation {
+        display: flex;
+        gap: .5em;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+ 
+    
+}
